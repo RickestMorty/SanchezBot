@@ -1,0 +1,14 @@
+{
+  "name": "sanchezc-137",
+  "version": "1.0.0",
+  "description": "An High-IQ Bot developed / being developed by xFlakey#6958.",
+  "main": "discord.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "xFlakey#6958",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.2.1"
+  }
+}

@@ -27,7 +27,7 @@ client.on('ready', () => {
 });
 
 client.on("guildMemberAdd", function(member) {
-    member.guild.channels.find("name", "general").sendMessage(member.toString() + " **Welcome to 𝐵adMemory's Discord**");
+    member.guild.channels.find("name", "welcome-and-goodbyes").sendMessage(member.toString() + " **Welcome to the Discord Seever**");
 
     member.addRole(member.guild.roles.find("name", "Member"));
   });
